@@ -81,7 +81,7 @@ const App: React.FC = () => {
 
       const endpoint = fetchAll ? "/getAllResults" : "/getResults";
       
-      const response = await fetch(`http://localhost:5000${endpoint}`, {
+      const response = await fetch(`https://server-results.onrender.com${endpoint}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

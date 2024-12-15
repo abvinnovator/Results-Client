@@ -1,3 +1,0 @@
-[build]
-  command = "npx puppeteer browsers install chrome && npm install"
-  publish = "."
